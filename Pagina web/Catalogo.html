@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="description" content="Catalogo de Productos">
+    <meta name="keywords" content="HTML5, CSSS, JavaScript">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Novedades Missy </title>
+    <link href="../CSS/estilopre.css" rel="stylesheet">
+  </head>
+  <body> 
+    <header>
+      <div align=center>
+        <img src="../IMG/Logo.jpeg" width="150" height="150" alt="ir a vinculo">
+        <h1>Novedades Missy</h1>   
+      </div>
+    </header>
+    <nay>
+      <div align=center>
+        <a href="Inicio Novedades Missy Prueba2.html">Sección 1:Inicio</a>
+        <a href="somos.html">Sección 2: Acerca de nosotros</a>
+      </div>
+    </nay>
+<hr>
+<br>
+<article>
+  <h2> Bienvenido al catálogo de Productos</h2>
+  <div align=justify>
+    <p>
+      Esrte catálogo busca actualizarse en tiempo real para que puedan darse cuenta de los
+      productos disponibles en stock, ahora bien para pedidos especiales, favor de mandar
+      un mensaje a las respectivas formas de contacto</p>
+</article>
+<marquee id="marquee" onscroll="desaparecer()">
+    <br>
+       OFERTA PARA EL DIA DEL NIÑO!!!
+    </br>
+        <img src="../IMG/Pro.jpeg" width="100" height="90">
+      </marquee>
+    
+      <script>
+        function desaparecer() {
+          const marquee = document.getElementById("marquee");
+    
+         
+          setTimeout(() => {
+            marquee.style.display = "none";
+          }, 5000);
+        }
+      </script>
+    <table>
+        <caption>Catálogo</caption>
+        <!sintetiza el contenido de la tablas>
+          <thead>
+            <tr> <!inserta fila en la tabla>
+              <th>Producto</th> <!inserta una celda de encabezadol>
+              <th>Imagen</th>
+              <th>Descripción</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+
+      <tbody> <!contenido de la tabla >
+        <tr>
+          <td> Audifonos</td> <!inserta una celda de datos>
+          <td><img src="../IMG/A.jpeg" alt="ir a vinculo"></td>
+          <td>Audifonos via Bluethoo de varios personajes</td>
+          <td>$280</td>
+        </tr>
+  
+        <tr>
+         <td> Aromatizante para Ropa</td>
+         <td><img src="../IMG/B.jpeg"  alt="ir a B"></td>
+          <td>Bolsa con 50 capsulas de aromatizante tipo suavizante para ropa</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Bolso Cartera</td>
+          <td><img src="../IMG/C.jpeg"  alt="ir a B"></td>
+          <td>Bolso Cartera de 2 divisiones con tarjeteros, espacio para monedas, espacio para celular y billetes</td>
+          <td>$160</td>
+        </tr>
+        <tr>
+          <td>Mousse Limpiador</td>
+          <td><img src="../IMG/M.jpeg"  alt="ir a B"></td>
+          <td>Mousse limpiador facial, rico en aminoacidos </td>
+          <td>$120</td>
+        </tr>
+      </tbody>
+    </table>
+    <footer>
+      <h4>Copyright © 2024 Novedades Missy - Todos los derechos reservados.</h4>
+    </footer>
+  </body>
+  </html>
+  
